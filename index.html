@@ -11,25 +11,24 @@
   <div class="container">
     <section class="tools-board">
       <div class="row">
-        <label  class="title">Options</label>
+        <label  class="title">Инструменты</label>
         <ul class="options">
-          <li class="option">
-            <img src="icons/brush.svg" alt="Brush">
-            <span>Brush</span>
+          <li class="option active">
+            <img src="icons/brush.svg" alt="Кисть">
+            <span >Кисть</span>
           </li>
           <li class="option">
-            <img src="icons/eraser.svg" alt="Eraser">
-            <span>Eraser</span>
+            <img src="icons/eraser.svg" alt="Ластик">
+            <span>Ластик</span>
           </li>
           <li class="option">
             <input type="range" id="size-slider">
           </li>
         </ul>
       </div>
-      <div class="row">
-        <label class="title">Colors</label>
+      <div class="row colors">
+        <label class="title">Цвета</label>
         <ul class="options">
-          <li class="option"></li>
           <li class="option"></li>
           <li class="option"></li>
           <li class="option"></li>
@@ -41,8 +40,8 @@
         </ul>
       </div>
       <div class="row">
-        <div class="clear-canvas">Clear Canvas</div>
-        <div class="save-image">Save As Image</div>
+        <button class="clear-canvas">Очистить</button>
+        <button class="save-image">Сохранить как изображение</button>
       </div>
     </section>
     <section class="drowing-board"></section>
